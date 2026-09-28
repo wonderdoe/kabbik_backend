@@ -1,0 +1,3 @@
+-- Deprecated: web URL columns are not used by kabbik_products API.
+-- If previously applied, run the drop migration instead:
+-- mysql -u <user> -p <database> < migrations/20260920_drop_kabbik_products_web_url_columns.sql
