@@ -51,13 +51,21 @@ const buildFinalLinks = (resolved, categoryIdByKey) => {
 
 const runMigrationTransaction = async (resolved, { force }) => {
   return withTransaction(async (query) => {
-    const [oldLinkRows, oldCategoryRows] = await Promise.all([
+    const [oldLinkRows, oldCategoryRows, activeAudiobookLinkRows] = await Promise.all([
       query('SELECT id, audiobook_id FROM categories_audiobooks'),
       query('SELECT id, name FROM categories WHERE deleted = 0'),
+      query(
+        `SELECT DISTINCT ca.audiobook_id
+         FROM categories_audiobooks ca
+         JOIN audiobooks a ON a.id = ca.audiobook_id
+         WHERE a.deleted = 0`
+      ),
     ]);
 
     const oldLinkIds = oldLinkRows.map((row) => row.id);
-    const oldAudiobookIds = new Set(oldLinkRows.map((row) => row.audiobook_id));
+    const oldAudiobookIds = new Set(
+      activeAudiobookLinkRows.map((row) => row.audiobook_id)
+    );
 
     const categoryIdByKey = assignCategoryIds(resolved);
 
