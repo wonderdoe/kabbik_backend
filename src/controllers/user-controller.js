@@ -10,6 +10,7 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
 const coreUtils = require('../utils/core-utils');
 const cons = require('../utils/constants');
+const LoggerError = require('../utils/logger-error');
 dotenv.config();
 
 class UserController {
@@ -323,6 +324,61 @@ class UserController {
             cons.HTTP_200,
             data
         );
+    };
+
+    getAudiobookDownloadLimit = async (req, res) => {
+        try {
+            const userId = req.currentUser?.id;
+            if (!userId) {
+                return ResponseUtils.respondError(res, cons.HTTP_401, cons.UNAUTH_REQ);
+            }
+            const data = await UserModel.getDownloadLimitAndUsage(userId);
+            return ResponseUtils.respond(res, cons.HTTP_200, {
+                status: true,
+                data,
+            });
+        } catch (error) {
+            console.error(error.stack || error);
+            LoggerError.log(error);
+            return ResponseUtils.respondError(
+                res,
+                cons.HTTP_500,
+                cons.INTERNAL_SERVER_ERROR
+            );
+        }
+    };
+
+    deleteAudiobookDownloadLog = async (req, res) => {
+        try {
+            const userId = req.currentUser?.id;
+            if (!userId) {
+                return ResponseUtils.respondError(res, cons.HTTP_401, cons.UNAUTH_REQ);
+            }
+            const {
+                audiobook_id: audiobookId,
+                episode_id: episodeId,
+            } = req.query;
+            if (!audiobookId || !episodeId) {
+                return ResponseUtils.respondError(res, cons.HTTP_400, cons.BAD_REQ);
+            }
+            const deletedCount = await UserModel.deleteDownloadLog({
+                audiobookId,
+                episodeId,
+                userId,
+            });
+            return ResponseUtils.respond(res, cons.HTTP_200, {
+                status: true,
+                deleted_count: deletedCount,
+            });
+        } catch (error) {
+            console.error(error.stack || error);
+            LoggerError.log(error);
+            return ResponseUtils.respondError(
+                res,
+                cons.HTTP_500,
+                cons.INTERNAL_SERVER_ERROR
+            );
+        }
     };
 
 }

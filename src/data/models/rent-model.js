@@ -135,7 +135,10 @@ class RentModel {
     const params = [];
 
     if (filters.category_id != null) {
-      conditions.push('a.category_id = ?');
+      conditions.push(`EXISTS (
+        SELECT 1 FROM categories_audiobooks ca
+        WHERE ca.audiobook_id = a.id AND ca.category_id = ?
+      )`);
       params.push(filters.category_id);
     }
 
