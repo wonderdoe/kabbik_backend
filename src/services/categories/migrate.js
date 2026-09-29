@@ -2,6 +2,8 @@ const { withTransaction } = require('../../data/db-transaction-utils');
 const { createCategoryBackupTables } = require('./backup');
 const { normalizeName, CHUNK_SIZE } = require('./resolveCore');
 
+const IGNORED_AUDIOBOOK_IDS = [1425, 1426, 1427, 1431, 1473, 2060];
+
 const chunkArray = (items, size) => {
   const chunks = [];
   for (let i = 0; i < items.length; i += size) {
@@ -51,21 +53,12 @@ const buildFinalLinks = (resolved, categoryIdByKey) => {
 
 const runMigrationTransaction = async (resolved, { force }) => {
   return withTransaction(async (query) => {
-    const [oldLinkRows, oldCategoryRows, activeAudiobookLinkRows] = await Promise.all([
+    const [oldLinkRows, oldCategoryRows] = await Promise.all([
       query('SELECT id, audiobook_id FROM categories_audiobooks'),
       query('SELECT id, name FROM categories WHERE deleted = 0'),
-      query(
-        `SELECT DISTINCT ca.audiobook_id
-         FROM categories_audiobooks ca
-         JOIN audiobooks a ON a.id = ca.audiobook_id
-         WHERE a.deleted = 0`
-      ),
     ]);
 
     const oldLinkIds = oldLinkRows.map((row) => row.id);
-    const oldAudiobookIds = new Set(
-      activeAudiobookLinkRows.map((row) => row.audiobook_id)
-    );
 
     const categoryIdByKey = assignCategoryIds(resolved);
 
@@ -95,6 +88,24 @@ const runMigrationTransaction = async (resolved, { force }) => {
       await query(
         'INSERT INTO categories_audiobooks (category_id, audiobook_id) VALUES ?',
         [values]
+      );
+    }
+
+    const newAudiobookIds = [...new Set(finalLinks.map((link) => link.audiobook_id))];
+    const orphanRows = await query(
+      `SELECT DISTINCT ca.audiobook_id
+       FROM categories_audiobooks ca
+       JOIN audiobooks a ON a.id = ca.audiobook_id
+       WHERE a.deleted = 0
+       AND ca.audiobook_id NOT IN (?)
+       AND ca.audiobook_id NOT IN (?)`,
+      [newAudiobookIds, IGNORED_AUDIOBOOK_IDS]
+    );
+
+    if (!force && orphanRows.length > 0) {
+      throw new MigrationVerificationError(
+        'Some audiobooks that previously had categories would be orphaned',
+        { orphanedAudiobookIds: orphanRows.map((row) => row.audiobook_id) }
       );
     }
 
@@ -147,18 +158,6 @@ const runMigrationTransaction = async (resolved, { force }) => {
         expectedPivotCount,
         pivotCount,
       });
-    }
-
-    const newAudiobookIds = new Set(finalLinks.map((link) => link.audiobook_id));
-    const orphanedAudiobookIds = [...oldAudiobookIds].filter(
-      (audiobookId) => !newAudiobookIds.has(audiobookId)
-    );
-
-    if (!force && orphanedAudiobookIds.length > 0) {
-      throw new MigrationVerificationError(
-        'Some audiobooks that previously had categories would be orphaned',
-        { orphanedAudiobookIds }
-      );
     }
 
     return {
