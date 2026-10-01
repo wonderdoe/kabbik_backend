@@ -1,5 +1,4 @@
 const { withTransaction } = require('../../data/db-transaction-utils');
-const { createCategoryBackupTables } = require('./backup');
 const { normalizeName, CHUNK_SIZE } = require('./resolveCore');
 
 const IGNORED_AUDIOBOOK_IDS = [1425, 1426, 1427, 1431, 1473, 2060];
@@ -197,14 +196,11 @@ const migrateCategoryRemap = async (resolved, options) => {
     return baseResponse;
   }
 
-  const ts = Date.now();
-  const backupTables = await createCategoryBackupTables(ts);
   const migrationResult = await runMigrationTransaction(resolved, { force });
 
   return {
     ...baseResponse,
     committed: true,
-    backupTables,
     migrationResult,
   };
 };

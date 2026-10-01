@@ -6,6 +6,7 @@ const {
   unwrapCallResults,
   safeResultIndex,
   safePushPodcast,
+  pushHomeStaticSection,
   safePushCategorySection,
   loadCategoryIds,
   persistHomeCronData,
@@ -880,12 +881,8 @@ class HomeModel {
         if (jsResult1) {
           const newest = safeResultIndex(jsResult1, 1);
           const free = safeResultIndex(jsResult1, 2);
-          if (newest != null) {
-            data.data.push({ name: "নতুন", data: newest });
-          }
-          if (free != null) {
-            data.data.push({ name: "ফ্রি", data: free });
-          }
+          pushHomeStaticSection(data, "নতুন", newest);
+          pushHomeStaticSection(data, "ফ্রি", free);
         }
       } catch (err) {
         logSectionError("home", "static", err);
@@ -920,12 +917,8 @@ class HomeModel {
                 LIMIT 10;`;
         const resultTrend = await DB.query(sqlTrend, [1]);
         const top10 = await DB.query(sqlTrend, [30]);
-        if (top10) {
-          data.data.push({ name: "শীর্ষ ১০", data: top10 });
-        }
-        if (resultTrend) {
-          data.data.push({ name: "ট্রেন্ডিং", data: resultTrend });
-        }
+        pushHomeStaticSection(data, "শীর্ষ ১০", top10);
+        pushHomeStaticSection(data, "ট্রেন্ডিং", resultTrend);
       } catch (err) {
         logSectionError("home", "trending", err);
       }
@@ -936,9 +929,7 @@ class HomeModel {
           try {
             if (i === 16) {
               const premium = safeResultIndex(jsResult1, 4);
-              if (premium != null) {
-                data.data.push({ name: "প্রিমিয়াম", data: premium });
-              }
+              pushHomeStaticSection(data, "প্রিমিয়াম", premium);
             }
 
             const results3 = await DB.query(
@@ -955,6 +946,7 @@ class HomeModel {
             ) {
               data.data.push({
                 name: jsResult3[0][0].name,
+                en_name: jsResult3[0][0].en_name,
                 categoryId: jsResult3[0][0].category_id,
                 categoryPrice: jsResult3[0][0].price,
                 forRent: jsResult3[0][0].for_rent,

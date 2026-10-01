@@ -1,0 +1,1297 @@
+{
+    "home_page_steps_by_steps":{
+        "heading": "কাব্যিক অ্যাপের স্মার্ট ফিচারসমূহ",
+        "datas": [
+            {
+              "title":"স্পিড কন্ট্রোল",
+              "subtitle":"আপনার পছন্দমতো 1x–2x গতি বাড়ান–কমান।"
+            },
+            {
+              "title":"স্লিপ টাইমার",
+              "subtitle":"সময় সেট করে রাখুন; সময় শেষে অডিও নিজে থেকেই বন্ধ হবে।"
+            },{
+              "title":"অফলাইন শোনা",
+              "subtitle":"ডাউনলোড করে রাখুন, ইন্টারনেট ছাড়াই যেকোনো সময় গল্প শুনুন।"
+            },{
+            "title":"অ্যাড-ফ্রি প্রিমিয়াম",
+              "subtitle":"প্রিমিয়াম ব্যবহারকারীদের জন্য সম্পূর্ণ বিজ্ঞাপন-মুক্ত অভিজ্ঞতা।"
+            },{
+              "title":"কাস্টম প্লেলিস্ট",
+              "subtitle":"নিজের মতো করে পছন্দের গল্পের তালিকা তৈরি করুন।"
+            },
+            {
+              "title":"রিওয়ার্ড পয়েন্ট অর্জন",
+              "subtitle":"গল্প শুনলেই জমবে পয়েন্ট—শুনতে থাকলেই বাড়বে।"
+            },
+            {
+              "title":"রেফার করে ক্যাশ ইনকাম",
+              "subtitle":"বন্ধুকে রেফার করলেই সঙ্গে সঙ্গে পাবেন নগদ টাকা।"
+            }
+        ]
+    },
+    "guideline":[
+      {
+          "heading": "কাব্যিক অ্যাপের স্মার্ট ফিচারসমূহ",
+          "image":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/HowToListen%20(1).png",
+          "datas": [
+              {
+                "title":"স্পিড কন্ট্রোল",
+                "subtitle":"আপনার পছন্দমতো 1x–2x গতি বাড়ান–কমান।"
+              },
+              {
+                "title":"স্লিপ টাইমার",
+                "subtitle":"সময় সেট করে রাখুন; সময় শেষে অডিও নিজে থেকেই বন্ধ হবে।"
+              },{
+                "title":"অফলাইন শোনা",
+                "subtitle":"ডাউনলোড করে রাখুন, ইন্টারনেট ছাড়াই যেকোনো সময় গল্প শুনুন।"
+              },{
+              "title":"অ্যাড-ফ্রি প্রিমিয়াম",
+                "subtitle":"প্রিমিয়াম ব্যবহারকারীদের জন্য সম্পূর্ণ বিজ্ঞাপন-মুক্ত অভিজ্ঞতা।"
+              },{
+                "title":"কাস্টম প্লেলিস্ট",
+                "subtitle":"নিজের মতো করে পছন্দের গল্পের তালিকা তৈরি করুন।"
+              },
+              {
+                "title":"রিওয়ার্ড পয়েন্ট অর্জন",
+                "subtitle":"গল্প শুনলেই জমবে পয়েন্ট—শুনতে থাকলেই বাড়বে।"
+              },
+              {
+                "title":"রেফার করে ক্যাশ ইনকাম",
+                "subtitle":"বন্ধুকে রেফার করলেই সঙ্গে সঙ্গে পাবেন নগদ টাকা।"
+              }
+          ]
+      },
+      {
+          "heading": "গেম খেলুন, পয়েন্ট জিতুন",
+          "link":"/entertainment",
+          "image":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Minigolfeeee.png",
+          "datas": [
+              {
+                "title":"সহজ ও ইন্টারেক্টিভ গেমপ্লে",
+                "subtitle":"সব বয়সের জন্য তৈরি ইন্টারেক্টিভ গেম এক্সপেরিয়েন্স।"
+              },
+              {
+                "title":"দ্রুত রাউন্ড, বেশি মজা",
+                "subtitle":"ব্যস্ততার মাঝেও মিনিটেই মুড রিফ্রেশ ।"
+              },{
+                "title":"রিওয়ার্ড ",
+                "subtitle":"প্রতিটি গেমে থাকছে পয়েন্ট ও সেই পয়েন্ট দিয়ে প্রিমিয়াম বই শোনার সুযোগ।"
+              },{
+              "title":"ইন-অ্যাপ এক্সেস",
+                "subtitle":"অ্যাপের মধ্যেই সহজে গেম খেলুন—কোনো আলাদা অ্যাপের দরকার নেই।"
+              }
+          ]
+      }
+    ],
+    "best_collection":[
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "বাঙালি সংস্কৃতি ও মনস্তত্ত্বের হাজার বছরের ধারক",
+          "para": "বাংলা সাহিত্যের কালজয়ী সৃষ্টি শুনুন কাব্বিকে",
+          "category": "সাহিত্য",
+          "link": "/সাহিত্য"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "শব্দে শব্দে জীবনের সুর",
+          "para": "বাংলা কবিতা ও গানের অনন্য সংকলন এখন অডিওতে",
+          "category": "কবিতা-গান",
+          "link": "/কবিতা-গান"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "আত্মার পরিশুদ্ধি ও জ্ঞানের আলোয় আলোকিত হন",
+          "para": "ইসলামিক জ্ঞান ও অনুপ্রেরণার সেরা অডিওবুক সংগ্রহ",
+          "category": "ইসলামিক",
+          "link": "/ইসলামিক"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "অতীতের পাতায় লেখা আমাদের পরিচয়",
+          "para": "ইতিহাস ও মুক্তিযুদ্ধের অজানা গল্প শুনুন কাব্বিকে",
+          "category": "ইতিহাস",
+          "link": "/ইতিহাস"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "রোমাঞ্চ ও রহস্যের অন্ধকার জগতে আপনাকে স্বাগতম",
+          "para": "থ্রিলার ও রহস্য গল্পের সেরা অডিওবুক এখন এক জায়গায়",
+          "category": "রহস্য-থ্রিলার",
+          "link": "/রহস্য-থ্রিলার"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "ছোটদের কল্পনার জগৎ হোক আরও বড়",
+          "para": "শিশু-কিশোরদের জন্য মজাদার ও শিক্ষণীয় অডিওবুক সংগ্রহ",
+          "category": "শিশু-কিশোর",
+          "link": "/শিশু-কিশোর"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "নিজেকে গড়ুন, জীবনকে বদলান",
+          "para": "সেলফ ডেভেলপমেন্টের সেরা বইগুলো এখন অডিওতে শুনুন",
+          "category": "সেলফ ডেভেলপমেন্ট",
+          "link": "/সেলফ ডেভেলপমেন্ট"
+        },
+        {
+          "bg": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/VutBg.webp",
+          "heading": "সফল উদ্যোক্তার পথে আপনার বিশ্বস্ত সঙ্গী",
+          "para": "ব্যবসা ও মার্কেটিংয়ের কৌশল শিখুন বিশ্বসেরা বই থেকে",
+          "category": "বিজনেস",
+          "link": "/বিজনেস"
+        }
+      ],
+    "home_video":{
+      "videos":[
+        {
+          "link":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/ovc.mp4",
+          "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/ovcThumb.jpg"
+        },
+        {
+          "link":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/Kabbik%20Games%20(2).mp4",
+          "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/imagejkdfjdkfj.png"
+        },
+        {
+          "link":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/%E0%A6%B6%E0%A6%AC%E0%A7%8D%E0%A6%A6%E0%A7%87%E0%A6%B0%E0%A6%BE%20%E0%A6%AF%E0%A6%96%E0%A6%A8%20%E0%A6%9C%E0%A7%80%E0%A6%AC%E0%A6%A8%E0%A7%8D%E0%A6%A4%20%E0%A6%B9%E0%A6%AF%E0%A6%BC%20%E2%80%94%20%E0%A6%85%E0%A6%A8%E0%A7%81%E0%A6%AD%E0%A6%AC%20%E0%A6%95%E0%A6%B0%E0%A7%81%E0%A6%A8%20%E0%A6%95%E0%A6%BE%E0%A6%AC%E0%A7%8D%E0%A6%AF%E0%A6%BF%E0%A6%95%E0%A7%87%E0%A6%B0%C2%A0%E0%A6%9C%E0%A6%BE%E0%A6%A6%E0%A7%81%C2%A0%F0%9F%8E%A7%E2%9C%A8.mp4",
+          "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/thumb1.jpg"
+        }
+        
+      ]
+    },
+   "big_book_banners":[
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Jin%20FEREshta%20(2).png",
+            "id":"2263",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1773297202220.png?w=640&q=80",
+            "book_name":"জিন-ফেরেশতা ও শয়তানের ইতিহাস",
+            "author_name":"আল্লামা জালালুদ্দীন সুয়ূতী রহ"
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/5%20Orange%20PIPS.png",
+            "id":"2268",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1776250951641.jpeg?w=640&q=80",
+            "book_name":"দ্য ইয়েলো ফেস",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/SIlver%20Blaze...png",
+            "id":"2265",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1775390616059.png?w=640&q=80",
+            "book_name":"সিলভার ব্লেজ",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/ROkter%20Chaap.png",
+            "id":"2264",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1775389923045.png?w=640&q=80",
+            "book_name":"রক্তের ছাপ",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+           
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/NEVAL%20Treeat.png",
+            "id":"2256",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1770725197069.png?w=640&q=80",
+            "book_name":"নেভ্যাল ট্রীট",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+            
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/MONdeer.png",
+            "id":"2251",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1770267477120.png?w=640&q=80",
+            "book_name":"মন্দির",
+            "author_name":"শরৎচন্দ্র চট্টোপাধ্যায়"
+          
+        },
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Meyetike%20Bachano%20Gelo%20na.png",
+            "id":"2266",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1775558016478.png?w=640&q=80",
+            "book_name":"মেয়েটিকে বাঁচানো গেল না",
+            "author_name":"ইকরাম কবীর"
+            
+        },
+     
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/dopamineDetox12%20(1)%20(1).png",
+            "id":"2172",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1746882534785.webp",
+            "book_name":"ডোপামিন ডিটক্স",
+            "author_name":"কাজী লুৎফুল হক"
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/AtomicHabits11.png",
+            "id":"2088",
+            "book_name":"এটমিক হ্যাবিটস",
+            "author_name":"রায়হান ফেরদৌস রুদ্র",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1732107696380.webp?w=640&q=80"
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/kaizenBigBanner11.png",
+            "id":"2180",
+            "book_name":"কাইজেন",
+            "author_name":"আয়শা সিনীন খান",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1750760711465.webp?w=640&q=80"
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/howToTalkToAnyOneUnSubs-min-min.png",
+            "id":"2143",
+            "book_name":"হাউ টু টক টু এনিওয়ান",
+            "author_name":"নুসরাত জাহান সুপ্তি",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1743931823543.webp?w=640&q=80" 
+        }
+    ],
+    "big_book_banners_subscribed":[
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/jin%20Fereshta%20Free%20User.png",
+            "id":"2263",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1773297202220.png?w=640&q=80",
+            "book_name":"জিন-ফেরেশতা ও শয়তানের ইতিহাস",
+            "author_name":"আল্লামা জালালুদ্দীন সুয়ূতী রহ"
+            
+        },
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/5%20Orange%20PIPS%20free%20user.png",
+            "id":"2268",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1776250951641.jpeg?w=640&q=80",
+            "book_name":"দ্য ইয়েলো ফেস",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+            
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/SILver%20Blaze%20Free%20User%20(2).png",
+            "id":"2265",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1775390616059.png?w=640&q=80",
+            "book_name":"সিলভার ব্লেজ",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+            
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/ROkter%20Chaap%20-%20free%20Users.png",
+            "id":"2264",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1775389923045.png?w=640&q=80",
+            "book_name":"রক্তের ছাপ",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+            
+        },
+         {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/NEVAL%20Treeat%20Free%20User.png",
+            "id":"2256",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1770725197069.png?w=640&q=80",
+            "book_name":"নেভ্যাল ট্রীট",
+            "author_name":"স্যার আর্থার কোনান ডয়েল"
+            
+        },{
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Mondeer%20Free%20User.png",
+            "id":"2251",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1770267477120.png?w=640&q=80",
+            "book_name":"মন্দির",
+            "author_name":"শরৎচন্দ্র চট্টোপাধ্যায়"
+            
+        },
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/meyetikeBachanoGelona-freeUser.png",
+            "id":"2266",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1775558016478.png?w=640&q=80",
+            "book_name":"মেয়েটিকে বাঁচানো গেল না",
+            "author_name":"ইকরাম কবীর"
+            
+        },
+      
+        {
+            "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/dopamineDetox-min-min.png",
+            "id":"2172"
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/atomicHabit_Subscribed-min-min.png",
+            "id":"2088" 
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/kaizenSubscribed-min-min.png",
+            "id":"2180" 
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/howtoTalkTOAnyOneSubscribed-min-min.png",
+            "id":"2143" 
+        },
+        {
+           "img":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/fishing-game%20(1).png",
+            "id":"2143",
+            "book_name":"হাউ টু টক টু এনিওয়ান",
+            "author_name":"নুসরাত জাহান সুপ্তি",
+            "banner":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1743931823543.webp?w=640&q=80",
+            "link":"/entertainment"
+        }
+    ],
+    "popular_categories":[
+        {
+        "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1711863127559.png",
+        "path":"ক্লাসিক"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1731485298514.webp",
+            "path":"হুমায়ূন আহমেদ স্পেশাল"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1713244171931.webp",
+            "path":"থ্রিলার"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1713244222424.webp",
+            "path":"রহস্য"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1713243618239.webp",
+            "path":"আত্মউন্নয়নমূলক"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1713243685641.webp",
+            "path":"এডভেঞ্চার"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1719837739860.webp",
+            "path":"কাব্যিক রিকমেন্ডেড"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1718176023693.webp",
+            "path":"ব্রেইন বুস্টার"
+        },
+        {
+            "img":"https://kabbik-space.sgp1.digitaloceanspaces.com/1713243708850.webp",
+            "path":"ভৌতিক"
+        }
+    ],
+    "campaign_video":{
+        "videos":[
+        {
+          "link":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/newovc23.mp4",
+          "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/newOvc23.jpg"
+        },{
+          "link":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/ovc.mp4",
+          "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/ovcThumb.jpg"
+        }
+      ]
+    },
+    "nepal_tour_video":{
+        "videos":[
+          {"video_url":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/referAndEarn.mp4",
+          "heading":"  কথায় কথায় গল্প, প্রতিটি শব্দে অনুপ্রেরণা",
+          "para":"অডিওবুক হোক আপনার প্রতিদিনের সঙ্গী।",
+          "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/referAndEarnThumb.jpg"},
+         
+          {
+            "video_url":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-videos/Kabbik%20Games%20reels%20(2).mp4",
+            "heading":"  গেম খেলুন, পয়েন্ট জিতুন ",
+            "para":"সেই পয়েন্ট দিয়েই শুনুন প্রিমিয়াম বই",
+            "thumbnail":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/image%20(7)%20(1).png"
+          }
+        ]
+        
+    },
+    "teamMembers" : [
+        {
+            "name": "MD. TANIN ISLAM",
+            "title": "Founder & CEO",
+            "description": "MD. TANIN ISLAM Founder & CEO, Graduated from Islamic university of technology (IUT) Gazipur, Dhaka, Bangladesh. With over 15 years of experience in it application support design development project management and deployment. Contributed to renewed companies like Robi Axiata limited. also led a successful venture. Lets connect for mutual success.",
+            "imageUrl": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/taninVai.jpg"
+        },
+        {
+            "name": "MD. SAFIKUL KAOSAR",
+            "title": "Founder & CMO",
+            "description": "Coming From a business Background with BBA and MBA qualifications. With over a decade in telecom, specializing in Value- Added Service, OTT Platforms, and digital service, and a successful venture of my own. Let's connect for mutual success.",
+            "imageUrl": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/shafiqVai.jpg"
+        },
+        {
+            "name": "AMIT BISWAS",
+            "title": "Founder & CTO",
+            "description": "Graduated form BUET with 9 years in IT, Cloud expertise, builds tech products, leads teams, excels in streaming solutions, database optimization, telecom, and MFS industry Solutions.",
+            "imageUrl": "https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/amitVai.jpg"
+        }
+    ],
+    "upcoming":[
+      {
+        "thumb_path": "https://kabbik-space.sgp1.digitaloceanspaces.com/1744888238508.webp?w=384&q=80",
+        "date": "১4 জুলাই ২০২৫"
+      },
+      {
+        "thumb_path": "https://kabbik-space.sgp1.digitaloceanspaces.com/1751872410787.webp",
+        "date": "১১ জুন ২০২৫"
+      },
+      {
+        "thumb_path": "https://kabbik-space.sgp1.digitaloceanspaces.com/1721033951064.webp?w=384&q=80",
+        "date": "১১  আগস্ট ২০২৫"
+      },
+      {
+        "thumb_path": "https://kabbik-space.sgp1.digitaloceanspaces.com/1697275485153.webp?w=384&q=80",
+        "date": "৯ নভেম্বার ২০২৫"
+      },
+      {
+        "thumb_path": "https://kabbik-space.sgp1.digitaloceanspaces.com/1738138373727.webp?w=384&q=80",
+        "date": "১০ জুলাই ২০২৫"
+      },
+      {
+        "thumb_path": "https://kabbik-space.sgp1.digitaloceanspaces.com/1738899015452.webp?w=384&q=80",
+        "date": "১১ জানুয়ারি ২০২৫"
+      }
+    ],
+    "special_offers":[
+      {
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/banglaKaljoyiSahitto.png",
+        "link":"কালজয়ী বাংলা সাহিত্য",
+        "id":1
+      },
+      {
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/classicVoutik.png",
+        "link":"ভৌতিক",
+        "id":2
+      },
+      {
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/brainBooster.png",
+        "link":"ব্রেইন বুস্টার",
+        "id":3
+      },
+      {
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1776751064075.jpeg",
+        "link":"ক্লাসিক%20গল্পের%20ঝাঁপি",
+        "id":4
+      },
+      {
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1777278873325.jpeg",
+        "link":"মনের%20গল্প",
+        "id":3
+      },
+      {
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/1777288838461.jpeg",
+        "link":"ভয়ংকর%20ভূতের%20গল্প",
+        "id":3
+      }
+    ],
+     "reels":[
+      {
+      "id": -19,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_77.jpg",
+        "reel_youtube_id":"96MufQBPGns",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -18,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_58.jpg",
+        "reel_youtube_id":"7NcdpV9FUjk",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -17,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_74.jpg",
+        "reel_youtube_id":"ilLFvOElk5o",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -16,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/best%20selling.jpeg",
+        "reel_youtube_id":"LFrw9iiJdTc",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -15,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/special-offer-next-10-book.jpeg",
+        "reel_youtube_id":"XEvvhqdTE0U",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -14,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/classic_combo.jpeg",
+        "reel_youtube_id":"ylYs-D03Skk",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -13,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/silver-Blaze.png",
+        "reel_youtube_id":"LVdhhlK89AM",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -12,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_4.png",
+        "reel_youtube_id":"7kvWJWHWdAE",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -11,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_73.jpg",
+        "reel_youtube_id":"yH6-xDYQkes",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -10,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_72.jpg",
+        "reel_youtube_id":"s1VI0tarIbQ",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -9,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_71.jpg",
+        "reel_youtube_id":"gVhjiiNNLhE",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -8,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_70.jpg",
+        "reel_youtube_id":"RYr-t0QEJJE",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -7,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_69.jpg",
+        "reel_youtube_id":"f6bhUd8lE44",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -6,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_68.jpg",
+        "reel_youtube_id":"DWS7VxSAKfE",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -5,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_67.jpg",
+        "reel_youtube_id":"a0NU6dVX4rY",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -4,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_66.jpg",
+        "reel_youtube_id":"tKdsgYIamVU",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -3,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_65.jpg",
+        "reel_youtube_id":"mwcP-khXGMU",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -2,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_64.jpg",
+        "reel_youtube_id":"I7DPHmeh82g",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": -1,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Screenshot_60.jpg",
+        "reel_youtube_id":"1ROQSMftwps",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }},
+    {
+      "id": 0,
+      "reelInfo": {
+        
+        "description": "Short demo 1",
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/khuditoPasan.jpg",
+        "reel_youtube_id":"SNcIc3GmqyA",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F692466046587164%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 1,
+      "reelInfo": {
+        
+        "type": "video/mp4",
+        "reel_youtube_id":"JIjHE8m94vk",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/course.jpg",
+        "description": "Short demo 2",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1907618176760152%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 2,
+      "reelInfo": {
+        "type": "video/mp4",
+        "reel_youtube_id":"BzaOqFR-o38",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/sharlockHomes.jpg",
+        "description": "Short demo 2",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F787617287554000%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 3,
+      "reelInfo": {
+        "type": "video/mp4",
+        "reel_youtube_id":"xz91r43nSI4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/ashia.jpg",
+        "description": "Short demo 2",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1064138292595326%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 4,
+      "reelInfo": {
+        "type": "video/mp4",
+        "reel_youtube_id":"qXVaJ3PvGVM",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/aynaghor.jpg",
+        "description": "Short demo 2",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F756180273895117%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 5,
+      "reelInfo": {
+        "type": "video/mp4",
+        "reel_youtube_id":"wEe6uEoV79E",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/gulbahar.jpg",
+        "description": "Short demo 2",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F810077208009888%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 6,
+      "reelInfo": {
+        "type": "video/mp4",
+        "reel_youtube_id":"t6UWHKLMolo",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/kabbikBookAsche.jpg",
+        "description": "Short demo 2",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1064525155521129%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 7,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/kabbikBookAsche.jpg",
+        "reel_youtube_id":"I7DPHmeh82g",
+        "description": "",
+        "facebook_url":"https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fjulybiplob2K24%2Fvideos%2F1310407933861126%2F&show_text=false&width=267&t=0"
+      }
+    },
+    {
+      "id": 8,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels1.jpg",
+        "reel_youtube_id":"I7DPHmeh82g",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 9,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels2.jpg",
+        "reel_youtube_id":"MMEHd5St26k",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 10,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels1.jpg",
+        "reel_youtube_id":"I7DPHmeh82g",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 11,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels3.jpg",
+        "reel_youtube_id":"mBHeGscFP9Y",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 12,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels4.jpg",
+        "reel_youtube_id":"2mHlexLNUvA",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 13,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels6.jpg",
+        "reel_youtube_id":"f_og8lJEGT4",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 14,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels5.jpg",
+        "reel_youtube_id":"W9EKK5Rgha0",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 15,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels7.jpg",
+        "reel_youtube_id":"-kx0uyD9ibk",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 16,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels8.jpg",
+        "reel_youtube_id":"FDLYMYJ7ddk",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 17,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels9.jpg",
+        "reel_youtube_id":"wU-FXrCae-I",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 18,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels10.jpg",
+        "reel_youtube_id":"AHCEH9SUH-8",
+        "title":"",
+        "description": ""
+      }
+    },
+    {
+      "id": 19,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/reels11.jpg",
+        "reel_youtube_id":"MPSKhkTvxWM",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 20,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Fokir%20Barir%20Rohosso.jpg",
+        "reel_youtube_id":"0RY1mdQzrHg",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 21,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/Someoneded.jpg",
+        "reel_youtube_id":"yH6-xDYQkes",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 22,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/kicu%20manus.jpg",
+        "reel_youtube_id":"s1VI0tarIbQ",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 23,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/suncikabbikaudio.jpg",
+        "reel_youtube_id":"gVhjiiNNLhE",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 24,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/sajanorjonno.jpg",
+        "reel_youtube_id":"RYr-t0QEJJE",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 25,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/daroan.jpg",
+        "reel_youtube_id":"f6bhUd8lE44",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 26,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/ajker%20dine.jpg",
+        "reel_youtube_id":"DWS7VxSAKfE",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 27,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/past%20e.jpg",
+        "reel_youtube_id":"a0NU6dVX4rY",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 28,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/company%20head.jpg",
+        "reel_youtube_id":"tKdsgYIamVU",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 29,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/sotendero.jpg",
+        "reel_youtube_id":"mwcP-khXGMU",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 30,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/leadership.jpg",
+        "reel_youtube_id":"uTA6Ak-frDo",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 31,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/kashbon.jpg",
+        "reel_youtube_id":"ZHX3bj1Sf2U",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 32,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/music.jpg",
+        "reel_youtube_id":"R93drBOixkU",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 33,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/islam.jpg",
+        "reel_youtube_id":"gJXeJwCzgGM",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 34,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/thakurmar.jpg",
+        "reel_youtube_id":"83XlUTqEPyM",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 35,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/pohela%20boishak.jpg",
+        "reel_youtube_id":"2_uFhSSW50A",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 36,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/niloy%20neel.jpg",
+        "reel_youtube_id":"BHpAaZhQBqk",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 37,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/mike.jpg",
+        "reel_youtube_id":"bZ2e-0eVLA8",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 38,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/sathe%20achi.jpg",
+        "reel_youtube_id":"4xdfdxiBP8E",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 39,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/eid%20er%20chuti.jpg",
+        "reel_youtube_id":"Az9j65rxa4Q",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 40,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/attobiswaws.jpg",
+        "reel_youtube_id":"EGWXuim7Zhc",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 41,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/634.jpg",
+        "reel_youtube_id":"htAg0wLMmSM",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 42,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/gobeshona.jpg",
+        "reel_youtube_id":"WLD39E_hxaI",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 43,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/bolchen.jpg",
+        "reel_youtube_id":"gFhHBsIExJQ",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 44,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/rakha%20valo.jpg",
+        "reel_youtube_id":"nG4grDswuHo",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 45,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/khub%20valo%20lage.jpg",
+        "reel_youtube_id":"_JnxA0aBrlA",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 46,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/laughter.jpg",
+        "reel_youtube_id":"aweNr1G9IpI",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 47,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/boi%20bou.jpg",
+        "reel_youtube_id":"24Chgc-ci7o",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 48,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/musicshirt.jpg",
+        "reel_youtube_id":"IY44Mh_8guA",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 49,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/noi%20ami.jpg",
+        "reel_youtube_id":"uN6Id5e3LpU",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 50,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/somoy%20hye%20galo.jpg",
+        "reel_youtube_id":"pIcFH9aKoDA",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 51,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/jokey.jpg",
+        "reel_youtube_id":"wN_xwD3OzaQ",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 52,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/valobasha.jpg",
+        "reel_youtube_id":"43bgHbXN18U",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 53,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/safollo.jpg",
+        "reel_youtube_id":"eCln3OrGuFs",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 54,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/New%20year.jpg",
+        "reel_youtube_id":"GMrdnj9QuQw",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 55,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/manushtir%20jonno.jpg",
+        "reel_youtube_id":"TYeFUsTaV20",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 56,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/akjon%20nari.jpg",
+        "reel_youtube_id":"3afqMFitsVE",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 57,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/gurutopunno.jpg",
+        "reel_youtube_id":"dkjaXeonifc",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 58,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/startup.jpg",
+        "reel_youtube_id":"LinAMPdndCY",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 59,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/manusher%20achoron.jpg",
+        "reel_youtube_id":"7DsMNO_9vko",
+        "title":"",
+        "description": ""
+      }
+    },
+{
+      "id": 60,
+      "reelInfo": {
+        "type": "video/mp4",
+        "thumb":"https://kabbik-space.sgp1.cdn.digitaloceanspaces.com/kabbik-images/voi%20samogroo.jpg",
+        "reel_youtube_id":"nj6XQbqobBo",
+        "title":"",
+        "description": ""
+      }
+    }
+
+
+
+  ],
+"my_update":"13"
+
+}

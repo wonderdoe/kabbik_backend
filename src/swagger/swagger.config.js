@@ -87,6 +87,7 @@ const options = {
     path.join(__dirname, '../routers/v4/rent-router.js'),
     path.join(__dirname, 'banner-swagger-schemas.js'),
     path.join(__dirname, '../routers/v4/banners-router.js'),
+    path.join(__dirname, 'quick-access-swagger-schemas.js'),
     path.join(__dirname, '../routers/v4/cron-router.js'),
     path.join(__dirname, 'user-contribution-swagger-schemas.js'),
     path.join(__dirname, '../routers/v1/listening-stats-router.js'),

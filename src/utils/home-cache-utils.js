@@ -65,16 +65,31 @@ const safeResultIndex = (jsResult, index) => {
   return jsResult[index];
 };
 
-const safePushPodcast = (data, jsResult1) => {
-  const podcast = safeResultIndex(jsResult1, 3);
-  if (podcast == null) {
+const HOME_STATIC_SECTION_EN_NAMES = {
+  নতুন: "New Releases",
+  ফ্রি: "Free",
+  "শীর্ষ ১০": "Top 10",
+  ট্রেন্ডিং: "Trending",
+  প্রিমিয়াম: "Premium",
+  পডকাস্ট: "Podcast",
+};
+
+const pushHomeStaticSection = (data, bnName, sectionData, extraFields = {}) => {
+  if (sectionData == null) {
     return false;
   }
   data.data.push({
-    name: "পডকাস্ট",
-    data: podcast,
+    name: bnName,
+    en_name: HOME_STATIC_SECTION_EN_NAMES[bnName] ?? null,
+    data: sectionData,
+    ...extraFields,
   });
   return true;
+};
+
+const safePushPodcast = (data, jsResult1) => {
+  const podcast = safeResultIndex(jsResult1, 3);
+  return pushHomeStaticSection(data, "পডকাস্ট", podcast);
 };
 
 const safePushCategorySection = (data, results3, extraFields = {}) => {
@@ -221,6 +236,8 @@ module.exports = {
   unwrapCallResults,
   safeResultIndex,
   safePushPodcast,
+  pushHomeStaticSection,
+  HOME_STATIC_SECTION_EN_NAMES,
   safePushCategorySection,
   loadCategoryIds,
   fetchHomeDataFromMysql,
