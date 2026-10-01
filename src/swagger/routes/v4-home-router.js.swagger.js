@@ -125,6 +125,56 @@
 
 /**
  * @swagger
+ * /home/quick-access:
+ *   get:
+ *     summary: List quick access shortcuts for the authenticated user
+ *     description: |
+ *       Returns active rows from `quick_access` where `is_active = 1` and
+ *       `audience` is `all` or matches the user (`free` or `premium`).
+ *
+ *       Audience is computed server-side from `users.is_subscribed`,
+ *       `users.canceled_subscription`, and `users.next_purchase_time`
+ *       (not from query parameters).
+ *
+ *       Results are ordered by `sort_order` ASC, then `id` ASC.
+ *     tags: [V4 Home]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Quick access items retrieved (may be an empty array)
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/QuickAccessListResponse'
+ *             example:
+ *               success: true
+ *               message: Quick access items retrieved
+ *               data:
+ *                 - id: 1
+ *                   en_name: Rent
+ *                   bn_name: রেন্ট
+ *                   goto_page: /rent
+ *                 - id: 2
+ *                   en_name: Store
+ *                   bn_name: স্টোর
+ *                   goto_page: /store
+ *       401:
+ *         description: Unauthorized
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ *       500:
+ *         description: Internal server error
+ *         content:
+ *           application/json:
+ *             schema:
+ *               $ref: '#/components/schemas/ErrorResponse'
+ */
+
+/**
+ * @swagger
  * /home/home-banner-list:
  *   get:
  *     summary: GET home-banner-list

@@ -2,6 +2,7 @@ const express = require("express");
 const router = express.Router();
 const cron = require("node-cron");
 const HomeController = require("../../controllers/home-controller");
+const QuickAccessController = require("../../controllers/quick-access-controller");
 const authorize = require("../../middlewares/auth-middleware");
 const LoggerError = require("../../utils/logger-error");
 
@@ -24,6 +25,8 @@ router.get(
 );
 router.get("/author-publisher", authorize, HomeController.getHomeAuthorPublisher);
 router.get("/home", authorize, HomeController.getHomeDataAppFromCache);
+router.get("/quick-access", authorize, QuickAccessController.getForUser);
+
 router.get("/home-banner-list", authorize, HomeController.getHomeBannerList);
 
 router.post("/check-app-version", HomeController.checkAppVersion);

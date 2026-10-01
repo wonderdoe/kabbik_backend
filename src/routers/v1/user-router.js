@@ -6,6 +6,8 @@ const authorizeAdmin = require('../../middlewares/auth-admin-middleware');
 
 router.get('/user-purchase', authorize, userController.getForUserPurchase);
 router.get('/get-by-ids', authorize, userController.getByIds);
+router.get('/audiobook-download-limit', authorize, userController.getAudiobookDownloadLimit);
+router.delete('/audiobook-download-log', authorize, userController.deleteAudiobookDownloadLog);
 
 //update user profile
 router.delete('/delete',authorize, userController.softDelete);

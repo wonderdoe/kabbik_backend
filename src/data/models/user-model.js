@@ -987,6 +987,95 @@ class UserModel {
       return false;
     }
   };
+
+  getDownloadWindow = (purchaseTime) => {
+    if (!purchaseTime) {
+      return { start: null, end: null };
+    }
+    const purchase = new Date(purchaseTime);
+    if (Number.isNaN(purchase.getTime())) {
+      return { start: null, end: null };
+    }
+    const days = (Date.now() - purchase.getTime()) / (1000 * 60 * 60 * 24);
+    const bucket = Math.floor(days / 30);
+    const start = new Date(purchase.getTime());
+    start.setDate(start.getDate() + bucket * 30);
+    const end = new Date(start.getTime());
+    end.setDate(end.getDate() + 30);
+    return { start, end };
+  };
+
+  getDownloadLimitAndUsage = async (userId) => {
+    const limitSql = `
+      SELECT freeLimitCount, premiumLimitCount
+      FROM homepage_data
+      WHERE track_key = ? AND status = 1
+      LIMIT 1
+    `;
+    const userSql = `SELECT purchase_time, is_subscribed FROM ${this.tableName} WHERE id = ?`;
+    const limitRows = await DB.query(limitSql, ["episode_limit"]);
+    const userRows = await DB.query(userSql, [userId]);
+
+    const freeLimit =
+      limitRows && limitRows[0] ? Number(limitRows[0].freeLimitCount) || 0 : 0;
+    const premiumLimit =
+      limitRows && limitRows[0]
+        ? Number(limitRows[0].premiumLimitCount) || 0
+        : 0;
+
+    const user = userRows && userRows[0] ? userRows[0] : null;
+    const window = this.getDownloadWindow(user ? user.purchase_time : null);
+
+    let countSql;
+    let countParams;
+    if (window.start && window.end) {
+      countSql = `
+        SELECT COUNT(*) AS downloaded_count
+        FROM audiobook_download_log
+        WHERE user_id = ?
+          AND created_at >= ?
+          AND created_at < ?
+      `;
+      countParams = [userId, window.start, window.end];
+    } else {
+      countSql = `
+        SELECT COUNT(*) AS downloaded_count
+        FROM audiobook_download_log
+        WHERE user_id = ?
+      `;
+      countParams = [userId];
+    }
+
+    const countRows = await DB.query(countSql, countParams);
+    const downloadedCount =
+      countRows && countRows[0] ? Number(countRows[0].downloaded_count) || 0 : 0;
+    const remainingFree = Math.max(0, freeLimit - downloadedCount);
+    const remainingPremium = Math.max(0, premiumLimit - downloadedCount);
+    const isSubscribed = user && Number(user.is_subscribed) === 1;
+    const parsedUserId = Number(userId);
+
+    return {
+      user_id: Number.isFinite(parsedUserId) ? parsedUserId : userId,
+      free_limit: freeLimit,
+      premium_limit: premiumLimit,
+      downloaded_count: downloadedCount,
+      remaining_free_count: remainingFree,
+      remaining_premium_count: remainingPremium,
+      window_start: window.start,
+      window_end: window.end,
+      limit: isSubscribed ? premiumLimit : freeLimit,
+      remaining_count: isSubscribed ? remainingPremium : remainingFree,
+    };
+  };
+
+  deleteDownloadLog = async ({ audiobookId, episodeId, userId }) => {
+    const sql = `
+      DELETE FROM audiobook_download_log
+      WHERE audiobook_id = ? AND episode_id = ? AND user_id = ?
+    `;
+    const result = await DB.query(sql, [audiobookId, episodeId, userId]);
+    return result && result.affectedRows ? result.affectedRows : 0;
+  };
 }
 
 module.exports = new UserModel();

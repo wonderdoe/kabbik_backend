@@ -5,7 +5,7 @@
   "main": "app.js",
   "type": "commonjs",
   "scripts": {
-    "test": "node -r ./test-env.js --test src/utils/date-utils.test.js src/utils/search-sanitize.test.js src/utils/podcast-tag-utils.test.js src/utils/podcast-count-cache-utils.test.js src/utils/podcast-trending-utils.test.js src/utils/post-trending-utils.test.js src/validators/podcast-validator.test.js src/data/models/podcast-reaction.test.js src/data/models/podcast-model.test.js src/controllers/podcast-controller.test.js src/controllers/post-controller.test.js src/middlewares/auth-optional-middleware.test.js src/services/categories/parseWorkbook.test.js src/services/categories/parseCategoryJson.test.js src/services/categories/resolve.test.js",
+    "test": "node -r ./test-env.js --test src/utils/date-utils.test.js src/utils/search-sanitize.test.js src/utils/podcast-tag-utils.test.js src/utils/podcast-count-cache-utils.test.js src/utils/podcast-trending-utils.test.js src/utils/post-trending-utils.test.js src/validators/podcast-validator.test.js src/data/models/podcast-reaction.test.js src/data/models/podcast-model.test.js src/controllers/podcast-controller.test.js src/controllers/post-controller.test.js src/controllers/quick-access-controller.test.js src/middlewares/auth-optional-middleware.test.js src/services/categories/parseWorkbook.test.js src/services/categories/parseCategoryJson.test.js src/services/categories/resolve.test.js",
     "dev": "nodemon app.js"
   },
   "repository": {
