@@ -1,7 +1,12 @@
+const path = require("path");
+
+const rootDir = __dirname;
+
 module.exports = {
 	apps: [
 		{
-			script: "./app.js",
+			script: path.join(rootDir, "app.js"),
+			cwd: rootDir,
 			watch: false,
 			exec_mode: "cluster",
 			name: "primary-kabbik-backend",
@@ -11,6 +16,6 @@ module.exports = {
 				NODE_ENV: "production",
 				TZ: "UTC",
 			},
-		}	 
+		},
 	],
 };
