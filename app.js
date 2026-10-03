@@ -129,6 +129,7 @@ const affiliateRouter = require("./src/routers/v4/affiliate-router.js");
 const subs_page_track_Router = require("./src/routers/v4/subs_page_track_router.js");
 const continueBook_Router = require("./src/routers/v4/continueBookStatus-router.js");
 const kabbikProductsRouter = require('./src/routers/kabbik-products-router');
+const maintenanceRouter = require('./src/routers/maintenance-router');
 
 
 
@@ -246,6 +247,7 @@ app.use(express.urlencoded({
 
 app.use(cookieParser());
 app.use('/api', kabbikProductsRouter);
+app.use('/api', maintenanceRouter);
 app.use(constants.API + constants.VERSION_1 + '/auth', authRouter)
 app.use(constants.API + constants.VERSION_1 + '/users/me', listeningStatsRouter)
 app.use(constants.API + constants.VERSION_1 + '/users/me', userContributionRouter)
