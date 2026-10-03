@@ -102,6 +102,8 @@ const options = {
     path.join(__dirname, '../routers/v2/kabbik-admin-router.js'),
     path.join(__dirname, 'kabbik-products-swagger-schemas.js'),
     path.join(__dirname, '../routers/kabbik-products-router.js'),
+    path.join(__dirname, 'maintenance-swagger-schemas.js'),
+    path.join(__dirname, '../routers/maintenance-router.js'),
 
     // PHASE 1–4 — generated route docs (scripts/generate-swagger-routes.js)
     path.join(__dirname, 'routes/*.swagger.js'),
